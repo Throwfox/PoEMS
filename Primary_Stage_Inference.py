@@ -38,7 +38,7 @@ def main():
     y2=np.zeros(37404)
     y=np.concatenate((y2,y1)) #for minmax, the order is (y2,y1) #
     Y=np.expand_dims(y, axis=1)
-    X=np.load('/Data/xx.npy',allow_pickle=True)
+    X=np.load('/Data/processed_sepsis_24h.npy',allow_pickle=True)
 
     #-----------------------------------------------------------------------------
     kf = StratifiedKFold(n_splits=Config.kfold,shuffle=True,random_state=Config.seed) #random split, different each time
