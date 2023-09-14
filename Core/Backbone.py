@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch
-from Config import Config
+from ..Config import Config
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 class baseLSTM(nn.Module):
     def __init__(self, n_feature, batch_size=Config.batch_size,hidden_size=Config.hidden_size, output_size=Config.output_size, num_layers=1):
