@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch
 import torch.nn.functional as F
 from torch.distributions import Bernoulli
-from Config import Config
+from ..Config import Config
 
 def binary_label(y_pre):
     y_pre[y_pre > 0.5] = 1
