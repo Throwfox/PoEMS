@@ -1,6 +1,6 @@
 # Policy Network-Based Early Warning Monitoring System
 
-This repository is the official implementation of [PoEMS: Policy Network-Based Early Warning Monitoring System for Sepsis in Intensive Care Units](https://ieeexplore.ieee.org/abstract/document/10114577), published in IEEE Journal of Biomedical and Health Informatics. Feel free to contact me via this email (damon882046.c@nycu.edu.tw) if you have any problems.
+This repository is the official implementation of [PoEMS: Policy Network-Based Early Warning Monitoring System for Sepsis in Intensive Care Units](https://ieeexplore.ieee.org/abstract/document/10114577), published in IEEE Journal of Biomedical and Health Informatics. Feel free to contact me via this email (haodai@ufl.edu) if you have any problems.
 
 
 ### Guideline:
